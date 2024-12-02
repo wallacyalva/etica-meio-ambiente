@@ -1,0 +1,148 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+body {
+
+  font-family: Barlow;
+
+}
+
+.background-arvore {
+
+  background-color: #36661f;
+
+
+}
+
+
+.ul {
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: 'Barlow';
+
+}
+
+
+
+.ul li {
+
+  padding: 40px;
+
+
+}
+
+
+a {
+
+  color: white;
+
+}
+
+.text-title {
+  display: flex;
+
+
+
+}
+
+
+.main-text {
+
+  width: 100%;
+  padding-top: 102px;
+  padding-left: 30px;
+
+
+}
+
+
+.main-img {
+
+  display: flex;
+  height: 500px;
+  justify-content: right;
+  margin-bottom: 47px;
+  width: 100px;
+  padding-left: 1000px;
+}
+
+
+
+
+.typewriter {
+  font-size: 18px;
+  line-height: 1.5;
+  /* Melhora a legibilidade */
+  white-space: normal;
+  /* Permite a quebra de linha */
+  overflow: hidden;
+  /* Esconde o texto extra durante a animação */
+  max-width: 600px;
+  /* Define uma largura máxima do container */
+ }
+
+@keyframes typing {
+  from {
+    max-height: 0;
+  }
+
+  to {
+    max-height: 100vh;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+.main-text h1 {
+
+  font-size: 70px;
+  padding-bottom: 30px;
+
+}
+
+
+
+ 
+
+
+
+#secao-pilhas {
+
+  font-size: 50px;
+  padding-left: 530px;
+}
+
+ 
+ 
+
+
+#secao-pilhas,
+span {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+
+span {
+
+  padding: 20px;
+
+}
+

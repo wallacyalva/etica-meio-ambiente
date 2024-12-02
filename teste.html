@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista com Linha Somente no Celular</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Remove o sublinhado em telas grandes */
+        .custom-link {
+            text-decoration: none;
+            /* Sem sublinhado por padrão */
+        }
+
+        /* Adiciona o sublinhado somente em telas pequenas (máximo de 767px) */
+        @media (max-width: 767px) {
+            .custom-link {
+                text-decoration: underline;
+                /* Adiciona sublinhado em telas pequenas */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="list-unstyled">
+        <li><a class="custom-link" href="#">1 - Impacto Ambiental do Descarte Incorreto</a></li>
+        <li><a class="custom-link" href="#main-img3">2 - Composição Tóxica das Pilhas</a></li>
+        <li><a class="custom-link" href="#">3 - Riscos à Saúde Humana</a></li>
+        <li><a class="custom-link" href="#main-img4">4 - Desafios na Coleta e Reciclagem</a></li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
